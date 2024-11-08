@@ -13,4 +13,9 @@ export default defineConfig({
       },
     }),
   ],
+  resolve: {
+    alias: {
+      "~": "/app", // Map ~ to the app directory
+    },
+  },
 });
